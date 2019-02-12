@@ -11,19 +11,19 @@ public class ejercicio11{
  Scanner in=new Scanner(System.in); // la palabra Scanner se nesesita para el objeto, la palabra in es por el nombre , luego la parte de " = new" es para inicializarlo 
  // por otra parte , lo del parentesis la palabra in es indicar que va a recibir datos
   
-  double Radio=0;
-  double A=0;
-  double P=0;
-  double pi=3.1416;
-  double N2=2;
+  double Radio=0; // se declara la variable Radio
+  double A=0;  // se declara la variable A
+  double P=0;  // se declara la variable p
+  double pi=3.1416;  // se declara la variable pi
+  double N2=2;  // se declara la variable N2
 
- System.out.println("ingrese la radio del circulo para sacar el area y perimetro:");
- Radio=in.nextDouble();
+ System.out.println("ingrese la radio del circulo para sacar el area y perimetro:"); // se imprime en pantalla pidiendo al usuario la radio del circulo
+ Radio=in.nextDouble(); // se declara la variable radio con el numero ingresado por el usuario
   
-  A= pi * Radio * Radio;
-  P= N2 * pi * Radio;
+  A= pi * Radio * Radio; // se ejejuta la operacion ingresada
+  P= N2 * pi * Radio; // se genera la operacion ingresada
 
-  System.out.println("El resultado del area es de:" +A);
-  System.out.println("El resultado del perimetro es de:" +P);
+  System.out.println("El resultado del area es de:" +A); // si imprime en pantalla el resultado del area
+  System.out.println("El resultado del perimetro es de:" +P); // se imprime en pantalla el resultado del perimetro
   }
 }
